@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile card </title>
+    <!-- css style link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- css style link -->
+
+    <!-- -remix icon -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+     <!-- -remix icon -->
+
+<!-- google font link -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+  rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+  rel="stylesheet">
+<!-- google font link -->
+<style>
+*{margin:0;padding: 0;box-sizing: border-box;}
+
+body{background: linear-gradient(90deg, rgb(248, 85, 139) 0%, rgb(49, 31, 127) 50%, rgb(200, 56, 188) 100%);padding-top: 40px;padding-bottom: 50px;background-position: center center;background-repeat: no-repeat;background-size: cover;display: flex;justify-content: center;align-items: center;}
+
+.profile-body{width:400px;height:700px;background: linear-gradient(180deg, rgba(252,82,246,1) 0%, rgba(128,30,255,1) 28%, rgba(255,255,255,1) 63%, rgba(157,80,238,1) 100%);border-radius: 20px;padding: 20px 15px;box-shadow: 2px 0px 13px #0f0e0edd;}
+
+.profile-pic{margin-top: 30px;text-align: center;}
+.profile-pic img{object-fit: cover;border-radius: 50%;border: 6px solid rgb(102 17 136);box-shadow: 2px 0px 8px #0d011bdd;}
+
+.profile-head-content{text-align: center;margin-top: 20px;}
+
+.profile-head-content h1{margin: 0;font-family: "Roboto", sans-serif;font-size: 28px;letter-spacing: 0.3px;text-transform:uppercase;font-weight: 700;}
+
+.profile-head-content p{margin: 0;font-family: "Playwrite DE Grund", cursive;font-size: 16px;line-height: 24px;font-style: italic;}
+
+.profile-description{margin-top: 25px;text-align:center ;padding: 0px 10px;}
+
+.profile-description p{font-family:"Playwrite DE Grund", cursive;font-size: 14px;color: #333333dd;font-weight: 500;line-height: 22px;}
+
+.profile-media{margin-top: 30px;padding: 0px 10px;width:100%}
+
+.media_box{width:40px;height:40px;background-color: black;border-radius: 5px;display:flex;align-items: center;justify-items: center;transition: all 0.3s ease-in;cursor: pointer;}
+
+.media_box i, .media_box2 i{color:white;font-size: 20px;line-height: 40px;margin-left: 9px;}
+
+.media_box2{margin-top: 10px;width:40px;height:40px;background-color: black;border-radius: 5px;display:flex;align-items: center;justify-items: center;transition: all 0.3s ease-in;cursor: pointer;}
+
+.media_box:hover, .media_box2:hover{background: linear-gradient(180deg, rgba(252,82,246,1) 0%, rgba(128,30,255,1) 28%, rgb(63, 11, 122) 63%);}
+.media-text{color: rgb(27, 27, 27);font-family:"Playwrite DE Grund", cursive;font-size: 13px;margin-left: 25px;font-style: italic;font-weight: 600;}
+
+.profile-bottom{background: linear-gradient(90deg, rgb(255, 160, 191) 0%, rgb(183, 79, 243) 50%, rgb(252, 69, 237) 100%);height: 50px;border-radius: 40px;margin-top: 25px;box-shadow: 0px 5px 14px #0d011bdd;}
+
+.social-icon{display: flex; justify-content: space-evenly;align-items: center;line-height:50px;}
+
+.social-icon i{font-size: 21px;color:rgb(19, 19, 19);transition: all 0.3s ease-in;cursor: pointer;}
+.social-icon i:hover{color: aliceblue;}
+
+</style>
+
+</head>
+<body>
+    
+<div class="profile-body">
+
+     
+          <div class="profile-pic">
+            <img src="https://www.kindpng.com/picc/m/490-4904536_user-3d-icon-png-transparent-png.png"style="width:200px;height:200px" alt="image">
+          </div>         
+    
+  <div class="profile-head-content">
+     <h1>Arnab Chanda</h1>
+     <p>Front-end Web Developer</p>
+   </div>
+     <div class="profile-description">
+    <p>I'm a passionate web developer with a knack for turning ideas into dynamic websites. Proficient in HTML, CSS, JavaScript, and various frameworks, I thrive on creating responsive, user-friendly interfaces.</p>
+     </div>
+
+<div class="profile-media">
+    <div class="media_box">
+        <i class="ri-mail-send-line"></i>
+        <span class="media-text">arnabchanda.kol97@gmail.com</span> 
+    </div>
+
+    <div class="media_box2">
+        <i class="ri-phone-fill"></i>
+        <span class="media-text">(+91)-8910600891</span> 
+    </div>
+    
+</div>
+
+  <div class="profile-bottom">
+       <div class="social-icon">
+    <i class="ri-meta-fill"></i>
+    <i class="ri-twitter-x-fill"></i>
+    <i class="ri-instagram-line"></i>
+    <i class="ri-whatsapp-fill"></i>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
